@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./js/main.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Meeseeks Idle Clicker</title>
+</head>
+
+<body>
+  <div class="meeseeks">
+    <h2 id="perSecond">You Are Acquiring 0 Meeseeks /sec</h2>
+    <a href=# onclick="add()"><img id="image" src="./images/Mr_Meeseeks_smile.png"></a>
+    <br><br>
+    <h1 id='lookAtMe'></h1>
+    You have:
+    <input type="text" id="text">
+    Meeseeks
+    <br><br>
+    <button><a href="#" onclick="save()">Save</a></button>
+    <button><a href="#" onclick="load()">Load</a></button>
+  </div>
+
+  <div class="upgrade">
+    <div class="multiplier">
+      <h3 id="amountMultiplier">Upgrade Multiplier x2</h3>
+      <button><a href="#" onclick="buyMultiplier()"><span id="buyMultiplier">x2</span></a></button>
+      <h4 id="costMultiplier">Cost: 200 Meeseeks</h4>
+      <h4 id="currentMultiplier">You Own 0 Multipliers</h4>
+    </div>
+
+    <div class="auto">
+      <h3>Buy An Auto Meeseeks Maker</h3>
+      <button><a href="#" onclick="buyAutoClick()">Buy!</a></button>
+      <h4 id="costAutoClick">Cost: 10 Meeseeks</h4>
+      <h4 id="amountAutoClick">You Own 0 Auto Meeseeks Makers</h4>
+    </div>
+
+    <div class="farm">
+      <h3>Buy A Meeseeks Farm</h3>
+      <button><a href="#" onclick="buyFarm()">Farm!</a></button>
+      <p id="costFarm">Cost: 15 Meeseeks</p>
+      <h4 id="amountFarm">You Own 0 Meeseeks Farms</h4>
+    </div>
+  </div>
+</body>
+
+</html>

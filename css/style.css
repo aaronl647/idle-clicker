@@ -1,0 +1,9 @@
+div{
+  text-align: center;
+}
+
+.upgrade{
+  display: flex;
+  justify-content: space-evenly;
+}
+
